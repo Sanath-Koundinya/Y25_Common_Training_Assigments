@@ -1,1 +1,27 @@
 Method
+Level 0 → Level 1
+ls
+cat readme
+Level 1 → Level 2
+cat ./-
+Level 2 → Level 3
+cat "./--spaces in this filename--"
+Level 3 → Level 4
+ls -a
+cat ...Hiding-From-You
+Level 4 → Level 5
+ls
+cd inhere
+cat ./*
+Level 5 → Level 6
+find -size 1033c
+cat ./.file2
+Level 6 → Level 7
+find -user bandit7 -group bandit6 -size 33c
+cat bandit7.password
+Level 7 → Level 8
+grep millionth data.txt
+Level 8 → Level 9
+strings data.txt | grep ===
+Level 9 → Level 10
+base64 -d data.txt
